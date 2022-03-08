@@ -19,7 +19,7 @@ public class Calendario {
     public double calcoloGuadagno(){
         double guadagno = 0;
         for (int i=0; i<g.length; i++) {
-            System.out.println(g[i].calcoloGuadagno());
+            // System.out.println(g[i].calcoloGuadagno());
             guadagno+=g[i].calcoloGuadagno();
         }
         return guadagno;
